@@ -1,5 +1,7 @@
 walk(document.body);
 
+// This whole thing is a clone of https://github.com/panicsteve/cloud-to-butt
+
 function walk(node) 
 {
 	// I stole this function from here:
@@ -31,10 +33,10 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bRemember Me\b/g, "AVENGE ME");
+	v = v.replace(/\bRemember me\b/g, "AVENGE ME");
+	v = v.replace(/\bREMEMBER ME\b/g, "AVENGE ME");
+	v = v.replace(/\bremember me\b/g, "AVENGE ME");
 	
 	textNode.nodeValue = v;
 }

@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
-	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"name": "Remember Me -> AVENGE ME",
+	"version": "0.5",
+	"description": "Replaces the text 'remember me' with 'AVENGE ME'.",
 	"content_scripts": 
 	[
 		{
